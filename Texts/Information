@@ -1,0 +1,7 @@
+The robot travels on roads that consume energy and time; it can only move if its battery has enough energy for that specific road.
+Charging can only occur at buildings with charging stations. Each charged battery unit takes a specific amount of time (world.charge_time), which counts toward the total trip time.
+You are provided with several files: campus.py (the world API), grader.py (the testing script), templates (team_template.py, oracle_template.py), testing tools (faulty_solver.py, break_it.py), and a reference.json file containing optimal costs.
+Each team is assigned a personal campus generated from a seed (1000 + team number), alongside public campuses generated from seeds 1 through 5.
+The World API provides building locations, charger locations, battery capacity, maximum speed, and functions to check connecting roads (edges_from and edges_to).
+The project concludes with a live defense on December 2, 2026, where your solution will be run on hidden maps, the lecturer will introduce a live change to the world's properties, and team members will answer individual questions.
+The grading distribution is 25% for valid programs meeting the contract, 15% for call budget efficiency, 15% for the design document, 10% for predictions, 10% for the bug hunt, 20% for the defense, and 5% for testing and mutual breaking.   

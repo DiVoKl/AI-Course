@@ -1,0 +1,9 @@
+Program a solution file (e.g., team07.py) containing a solve(world, start, goal, battery) function to return a travel and charging plan, alongside a heuristic(world, building, battery, goal) function.
+Declare a CONTRACT at the top of your solution file establishing a performance guarantee, such as {"optimal": True} for the absolute minimum time or {"factor": 1.2} for a time up to 1.2 times the minimum.
+Write a design document (maximum two pages) detailing your state space representation, chosen algorithm, heuristic design and admissibility, and the reasoning behind your CONTRACT.
+Create a predictions.json file estimating the average number of API calls per query on public campuses before running your code, then measure the actual calls and explain any discrepancies larger than a factor of two.
+Maintain a test log documenting your custom tests, edge cases, and findings.
+Write a custom reference tester (oracle) based on oracle_template.py using a simple blind uniform-cost search to compare against your main solution.
+Complete a "Bug Hunt" on the provided faulty_solver.py file by finding a failing campus, explaining the symptom, locating the hidden bug, and fixing it.
+Execute a mutual break attempt using break_it.py and your oracle on another team's solution, report your findings, and address any break attempts made against your own code.
+Submit all required files via Moodle by November 25, 2026, with predictions due earlier on November 18, 2026.   

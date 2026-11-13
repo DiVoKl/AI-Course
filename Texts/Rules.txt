@@ -1,0 +1,5 @@
+You must implement blind search and heuristic search algorithms for a problem that does not have a ready-made solution online.  
+You are strictly limited to a budget of 1500 API calls (for edges_from and edges_to) per query on public campuses, and each query has a strict 20-second time limit.
+You must only interact with the world through the official API; attempting to access raw data or the generation code is forbidden and will be penalized during the defense.   
+You are not allowed to edit campus.py, grader.py, or reference.json.   
+While you may use any learning resources, including AI tools and the internet, your grade depends heavily on your ability to handle unseen maps, pre-measurement predictions, and live modifications during the defense.   
