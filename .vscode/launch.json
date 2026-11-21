@@ -1,0 +1,61 @@
+{
+    // Run these from the "Run and Debug" panel (Ctrl+Shift+D) or with F5.
+    // The ▶ "Run Python File" button ignores this file and runs grader.py with no arguments,
+    // which fails with "the following arguments are required: team_file".
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Grader: public campuses 1-5",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "grader.py",
+            "args": ["team09.py", "--seeds", "1", "2", "3", "4", "5"],
+            "cwd": "${workspaceFolder}/stage1",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Grader: personal campus 1009",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "grader.py",
+            "args": ["team09.py", "--seeds", "1009"],
+            "cwd": "${workspaceFolder}/stage1",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Grader: hidden campuses 77 78",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "grader.py",
+            "args": ["team09.py", "--size", "hidden", "--seeds", "77", "78"],
+            "cwd": "${workspaceFolder}/stage1",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Unit tests (test_team.py)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "test_team.py",
+            "args": ["team09.py"],
+            "cwd": "${workspaceFolder}/stage1",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Check oracle vs reference.json",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "check_oracle.py",
+            "cwd": "${workspaceFolder}/stage1",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "break_it on team09.py",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "break_it.py",
+            "args": ["team09.py", "--oracle", "my_oracle.py", "--tries", "40"],
+            "cwd": "${workspaceFolder}/stage1",
+            "console": "integratedTerminal"
+        }
+    ]
+}
