@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+stage1/results_*.json
+stage1/break_report.json
